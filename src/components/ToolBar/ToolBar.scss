@@ -1,0 +1,48 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5rem;
+
+  .option:first-child {
+    margin-top: 0;
+  }
+}
+
+.option {
+  width: 3rem;
+  height: 3rem;
+  margin: 5rem 0;
+  position: relative;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+
+  &.yellow {
+    background: #eebe56;
+  }
+
+  &.black {
+    background: #000;
+  }
+
+  &.brown {
+    background: #694f37;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    width: 4.1rem;
+    height: 4.1rem;
+    position: absolute;
+    top: -0.6rem;
+    left: -0.6rem;
+    border-radius: 50%;
+    border: 1px solid #c1c1c1;
+    transform: scale(1);
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
