@@ -1,5 +1,5 @@
 <template>
-  <div class="toolbar">
+  <div class="color-picker">
     <div class="option black"></div>
     <div class="option yellow"></div>
     <div class="option brown"></div>
