@@ -5,6 +5,6 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
     }
 })
-export default class ToolBar extends Vue {
+export default class ColorPicker extends Vue {
   
 }

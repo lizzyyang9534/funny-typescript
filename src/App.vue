@@ -1,30 +1,24 @@
 <template>
   <div id="app">
+    <ColorPicker />
     <Dog />
-    <ToolBar />
+    <RoundedButton text="Bark!"/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import Dog from './components/Dog/Dog.vue';
-import ToolBar from './components/ToolBar/ToolBar.vue';
+import ColorPicker from './components/ColorPicker/ColorPicker.vue';
+import RoundedButton from './components/RoundedButton/RoundedButton.vue';
 
 @Component({
   components: {
-    Dog, ToolBar
+    Dog, ColorPicker, RoundedButton
   },
 })
 export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
