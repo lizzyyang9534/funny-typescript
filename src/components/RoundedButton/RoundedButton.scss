@@ -1,14 +1,19 @@
 .rounded-btn {
     padding: 1rem 4rem;
     border-radius: 2rem;
-    background: #eebe56;
-    color: #fff;
+    background: #e9b649;
+    // color: #fff;
     font-weight: bold;
     text-align: center;
     transition: all .3s;
     cursor: pointer;
+    opacity: .8;
 
     &:hover {
-        opacity: .8;
+        opacity: .6;
+    }
+
+    &:active {
+        opacity: 1;
     }
 }
