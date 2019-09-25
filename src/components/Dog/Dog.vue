@@ -1,6 +1,6 @@
 <template>
   <div class="dog">
-    <img src="../../assets/Dog_silhouette.svg" alt>
+    <DogSvg/>
     <div class="bark">
       汪
     </div>
