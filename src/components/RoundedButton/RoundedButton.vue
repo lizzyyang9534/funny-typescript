@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-btn">
+  <div class="rounded-btn" @click="bark">
       {{text}}
   </div>
 </template>

@@ -1,8 +1,8 @@
 <template>
   <div class="dog">
     <img src="../../assets/Dog_silhouette.svg" alt>
-    <div class="bark">
-      汪
+    <div class="bark" v-show="isBark">
+      {{text}}
     </div>
   </div>
 </template>

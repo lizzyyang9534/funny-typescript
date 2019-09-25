@@ -1,4 +1,6 @@
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from "vue-property-decorator";
+import { actionName } from "@/store";
+import { State, Action } from "vuex-class";
 
 @Component({
     components: {
@@ -7,4 +9,5 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 })
 export default class RoundedButton extends Vue {
     @Prop() text: string;
+    @Action(actionName.bark) bark: () => void;
 }
