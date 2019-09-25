@@ -1,8 +1,6 @@
 <template>
   <div class="color-picker">
-    <div class="option black"></div>
-    <div class="option yellow"></div>
-    <div class="option brown"></div>
+    <div class="option" v-for="color in colors" :key="color" :class="color" @click="changeColor(color)"></div>
   </div>
 </template>
 

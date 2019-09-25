@@ -1,6 +1,6 @@
 <template>
   <div class="dog">
-    <img src="../../assets/Dog_silhouette.svg" alt>
+    <DogSvg :class="color"/>
     <div class="bark" v-show="isBark">
       {{text}}
     </div>

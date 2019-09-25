@@ -2,7 +2,19 @@
     position: relative;
     text-align: center;
 
-    .bark{
+    svg.yellow  {
+        fill: #eebe56;
+    }
+
+    svg.black {
+        fill: #000;
+    }
+
+    svg.brown {
+        fill: #694f37;
+    }
+
+    .bark {
         position: absolute;
         top: 0;
         right: 10%;
