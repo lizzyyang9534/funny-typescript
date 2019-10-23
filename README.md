@@ -1,5 +1,7 @@
 # funny-typescript
 
+[Typescript Introduction](https://github.com/lizzyyang9534/funny-typescript/wiki/TypeScript-%E7%B0%A1%E4%BB%8B)
+
 ## Project setup
 ```
 npm install
